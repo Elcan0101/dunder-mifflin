@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.logo {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logo div:nth-child(1) {
+    font-size: 32px;
+    line-height: 25.63px;
+    font-weight: bold;
+}
+
+.logo div:nth-child(2) {
+    font-size: 21px;
+    text-wrap: nowrap;
+    line-height: 15px;
+    font-weight: 100;
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 43.57px;
+}
+
+.main {
+    padding: 32px 0;
+}
+
+.btn {
+    display: block;
+    width: 120px;
+    height: 41px;
+    margin: 32px auto;
+    border: none;
+    background: blue;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+.teams_Picture {
+    
+    width: 100%;
+}
+
+.text_about_team {
+    margin-top: 14px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 28px;
+
+}
+
+
+.sosial {
+    display: flex;
+    justify-content: center;
+    column-gap: 32px
+}
+
+
+.footer {
+    padding: 26px 0;
+    background: #e8e8e8;
+}
+
+
+.web {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    line-height: 16.94px;
+    
+}
+
+
+
+.address {
+    text-align: center;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.logo_img {
+    display: block;
+    margin: 16px auto 0;
+}
+
